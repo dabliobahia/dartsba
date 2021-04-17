@@ -43,11 +43,10 @@ INSTALLED_APPS = [
     'django_extensions',
     'django_heroku',
     'dartsba.core',
-    'dartsba.players',
     'dartsba.players.apps.PlayerConfig',
     'dartsba.stats',
     'dartsba.matches',
-    'dartsba.fixutures'
+    'dartsba.fixtures'
 ]
 
 MIDDLEWARE = [

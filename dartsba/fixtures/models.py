@@ -13,7 +13,7 @@ class Fixtures(models.Model):
         (3, 'Victory')
     ]
 
-    match = models.ForeignKey(Matches, on_delete=models.CASCADE())
+    match = models.ForeignKey(Matches, on_delete=models.CASCADE)
     player = models.ForeignKey(User, on_delete=models.DO_NOTHING)
     ton = models.IntegerField(default=0)
     ton40 = models.IntegerField(default=0)

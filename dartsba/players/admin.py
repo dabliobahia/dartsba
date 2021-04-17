@@ -4,7 +4,7 @@ from dartsba.players.models import Players
 
 
 class PlayerModelAdmin(admin.ModelAdmin):
-    list_display = ('name', 'last', 'email', 'nickname', 'subscribed_today')
+    list_display = ('first_name', 'last_name', 'email', 'username', 'subscribed_today')
     date_hierarchy = 'created_at'
     search_fields = ('name', 'email', 'nickname')
     list_filter = ('created_at',)
