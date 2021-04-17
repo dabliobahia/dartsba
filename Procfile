@@ -1,1 +1,1 @@
-web: gunicorn myproject.wsgi
+web: gunicorn dartsba.wsgi --log-file -
